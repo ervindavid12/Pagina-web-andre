@@ -7,23 +7,23 @@
     background-color: #F1E4AD;
 }
 .fondo_menu{
-    background-color: #F1E4AD;
+    background-color: #0D0D0D;
 }
 .imagen01{
-    width: 1535px;
-    height: 150px;
+    width: 1505px;
+    height: 250px;
     background-image: url(/img/Imagen00.jpeg);
     align-self: flex-start;
     top: 10px;
     margin-bottom: 20px;
 }
-img{
-    width: 100px;
-    height: 90px;
+.imagenlogo{
+    width: 200px;
+    height: 190px;
     align-items: flex-start;
     margin-top: 30px;
     margin: 30px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 .texto{
     text-align: center;
@@ -70,35 +70,35 @@ img{
     border: #FA6D2F 1px solid;
     border-radius: 20px;
     margin: 0px 20px;
-    background: #FA6D2F;
+    background: #fa5d2f;
     padding: 10px;
 }
 .boton04{
     flex-direction: row;
     text-decoration: none;
     color: aliceblue;
-    border: #F0342E 1px solid;
+    border:  #FA6D2F 1px solid;
     border-radius: 20px;
     margin: 0px 20px;
-    background: #F0342E;
+    background:  #FA6D2F;
     padding: 10px;
 }
 .boton05{
     flex-direction: row;
     text-decoration: none;
     color: aliceblue;
-    border: #F0342E 1px solid;
+    border:  #FA6D2F 1px solid;
     border-radius: 20px;
     margin: 0px 20px;
-    background: #F0342E;
+    background:  #FA6D2F;
     padding: 10px;
 }
 .menu{
     width: 1350px;
     height: 400px;
-    background-color: #E39A36;
+    background-color: #ffff;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .logo_menu{
     width: 200px;
@@ -111,23 +111,84 @@ img{
     position: absolute;
 }
 .cuadro01{
-    width: 700px;
-    height: 150px;
-    background-color: #FA6D2F;
+    width: 400px;
+    height: 90px;
+    background-color: #ffff;
+    color: black;
     border-radius: 20px;
-    margin-left: 450px;
-    margin-top: -170px;   
+    margin-left: 550px;
+    margin-top: -120px;  
+    text-align: center;
+    font-size: 30px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .cuadro02{
     width: 300px;
     height: 80px;
-    background-color: #FA6D2F;
+    background-color: #fff;
     border-radius: 20px;
     margin-left: 900px;
     margin-top: -350px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.cuadro03{
-   width: 100%;
-   height: 100%;
-   background-color: #E39A36;
+.imagenesmenu{
+     flex-direction: column;
+     width: 100%;
+     height: auto;
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imagen03{
+    width: 500px;
+     height: 450px;
+    margin-top: 30px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imagen04{
+    width: 500px;
+     height: 450px;
+    margin-top: 30px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imagen05{
+    width: 500px;
+     height: 450px;
+    margin-top: 30px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.imagenesmenu2{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen06{
+    width: 500px;
+    height: 450px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen07{
+    width: 500px;
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
